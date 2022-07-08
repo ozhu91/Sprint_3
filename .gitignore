@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# allure-results/
+#        classes/
+#        maven-status/
+#        surefire-reports/
+#        test-classes/
+
+
+/.idea/
+/target/
