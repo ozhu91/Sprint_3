@@ -16,7 +16,7 @@ import org.junit.runners.Parameterized;
 import static org.hamcrest.Matchers.notNullValue;
 
 @RunWith(Parameterized.class)
-public class OrderApiCreatePostTest {
+public class OrderApiCreateTest {
 
     private final String firstName;
     private final String lastName;
@@ -28,7 +28,7 @@ public class OrderApiCreatePostTest {
     private final String comment;
     private final String[]color;
 
-    public OrderApiCreatePostTest(
+    public OrderApiCreateTest(
             String firstName, String lastName, String address, int metroStation, String phone,
             int rentTime, String deliveryDate, String comment, String[] color
     ) {

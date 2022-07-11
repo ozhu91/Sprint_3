@@ -12,7 +12,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class OrderApiGetPostListTest {
+public class OrderApiGetPostsListTest {
 
     @Before
     public void setUp() {
