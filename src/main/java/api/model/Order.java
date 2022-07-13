@@ -1,4 +1,4 @@
-package OrderApi.Data;
+package api.model;
 
 import java.util.ArrayList;
 import java.util.Date;

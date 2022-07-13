@@ -1,4 +1,4 @@
-package OrderApi;
+package order.api;
 
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;

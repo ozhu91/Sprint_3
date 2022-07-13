@@ -1,4 +1,4 @@
-package OrderApi.Data;
+package api.model;
 public class OrderCreatePostRequest {
     private String firstName;
     private String lastName;
