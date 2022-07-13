@@ -1,4 +1,4 @@
-package CourierApi.Data;
+package api.model;
 
 public class CourierRegistrationPostResponse {
     private String login;

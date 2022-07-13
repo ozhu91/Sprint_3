@@ -1,8 +1,7 @@
-package CourierApi;
+package api.client;
 
-import CourierApi.Data.CourierLoginPostRequest;
-import CourierApi.Data.CourierLoginPostResponse;
-import CourierApi.Data.CourierRegistrationPostResponse;
+import api.model.CourierLoginPostResponse;
+import api.model.CourierRegistrationPostResponse;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 

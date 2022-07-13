@@ -1,11 +1,11 @@
-package CourierApi;
+package courier.api;
 
-import CourierApi.Data.CourierLoginPostRequest;
-import CourierApi.Data.CourierLoginPostResponse;
-import CourierApi.Data.CourierRegistrationPostResponse;
+import api.client.CourierApiPrototype;
+import api.model.CourierLoginPostRequest;
+import api.model.CourierLoginPostResponse;
+import api.model.CourierRegistrationPostResponse;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
@@ -31,7 +31,7 @@ public class CourierApiLoginTest extends CourierApiPrototype {
         this.firstName = firstName;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name="login:{0} password:{1} fisrName:{2}")
     public static Object[][]getDataCourier() {
         return new Object[][] {
                 {"zhuma", "1234", "zhumzhum"}

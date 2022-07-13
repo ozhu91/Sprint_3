@@ -1,4 +1,4 @@
-package OrderApi.Data;
+package api.model;
 
 public class OrderPageInfo {
     private int page;

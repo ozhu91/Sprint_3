@@ -1,6 +1,6 @@
-package OrderApi;
+package order.api;
 
-import OrderApi.Data.OrderCreatePostRequest;
+import api.model.OrderCreatePostRequest;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
@@ -43,7 +43,7 @@ public class OrderApiCreateTest {
         this.color = color;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name="color: {7}")
     public static Object[][]getDataCOrderMain() {
         return new Object[][] {
                 {
